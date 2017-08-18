@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: WP-CRM System Contact From User\n"
+"POT-Creation-Date: 2016-04-02 16:13+0200\n"
+"PO-Revision-Date: 2016-04-02 16:37+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-crm-system-contact-user.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EDD_SL_Plugin_Updater.php:181
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Dostępna jest nowa wersja %1$s. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\">Zobacz szczegóły wersji %3$s.</a>."
+
+#: EDD_SL_Plugin_Updater.php:188
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Jest dostępna nowa wersja %1$s. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\">Zobacz szczegóły wersji %3$s</a> lub <a href=\"%4$s"
+"\">uaktualnij teraz</a>."
+
+#: EDD_SL_Plugin_Updater.php:326
+msgid "You do not have permission to install plugin updates"
+msgstr "Nie masz uprawnień by zainstalować aktualizacje wtyczki."
+
+#: EDD_SL_Plugin_Updater.php:326
+msgid "Error"
+msgstr "Błąd"
+
+#: license.php:8
+msgid "Contact From User License Key"
+msgstr "Klucz licencyjny formularza kontaktowego"
+
+#: license.php:12
+msgid "Enter your license key"
+msgstr "Wprowadź kod licencyjny programu"
+
+#: license.php:18 license.php:27
+msgid "Activate License"
+msgstr "Aktywuj licencje"
+
+#: license.php:22
+msgid "active"
+msgstr "aktywny"
+
+#: license.php:24
+msgid "Deactivate License"
+msgstr "Deaktywuj licencje"
+
+#: wp-crm-system-contact-user.php:217
+msgid ""
+"The contact was not created. A contact with the following name may already "
+"exist:"
+msgstr ""
+"Kontakt nie został utworzony, ponieważ kontakt o tej nazwie  już istnieje "
+"w bazie."
+
+#: wp-crm-system-contact-user.php:221
+msgid "New contact created:"
+msgstr "Nowy kontakt utworzony"
+
+#: wp-crm-system-contact-user.php:230
+msgid "Add as Contact"
+msgstr "Dodaj kontakt"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-CRM System Contact From User"
+msgstr "WP-CRM Systemowy Formularz kontaktowy użytkownika"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wp-crm.com"
+msgstr "https://www.wp-crm.com"
+
+#. Description of the plugin/theme
+msgid "Create a contact in WP-CRM from an existing user account."
+msgstr "Utwórz kontakt w formularzu WP-CRM z istniejącego konta użytkownika"
+
+#. Author of the plugin/theme
+msgid "Scott DeLuzio"
+msgstr ""
+"Scott DeLuzio\n"
+"tłumaczenie: G.Olichwer"
