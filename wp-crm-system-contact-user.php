@@ -3,7 +3,7 @@
    Plugin Name: WP-CRM System Contact From User
    Plugin URI: https://www.wp-crm.com
    Description: Create a contact in WP-CRM System from an existing user account.
-   Version: 2.0.4
+   Version: 2.0.5
    Author: Scott DeLuzio
    Author URI: https://www.wp-crm.com
    Text Domain: wp-crm-system-contact-user
@@ -14,7 +14,8 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-define('WPCRM_CONTACT_FROM_USER',__FILE__);
+define('WPCRM_CONTACT_FROM_USER', __FILE__);
+define('WPCRM_CONTACT_FROM_USER_VERSION', '2.0.5' );
 
 /* Start Updater */
 if (!defined('WPCRM_BASE_STORE_URL')){
@@ -35,10 +36,10 @@ function wpcrm_contact_from_user_updater() {
 
 	// setup the updater
 	$edd_updater = new WPCRM_SYSTEM_SL_Plugin_Updater( WPCRM_BASE_STORE_URL, __FILE__, array(
-			'version' 	=> '2.0.4', 				// current version number
-			'license' 	=> $license_key, 		// license key (used get_option above to retrieve from DB)
+			'version' 	=> WPCRM_CONTACT_FROM_USER_VERSION, // current version number
+			'license' 	=> $license_key, 					// license key (used get_option above to retrieve from DB)
 			'item_name' => WPCRM_CONTACT_FROM_USER_NAME, 	// name of this plugin
-			'author' 	=> 'Scott DeLuzio'  // author of this plugin
+			'author' 	=> 'Scott DeLuzio'  				// author of this plugin
 		)
 	);
 
